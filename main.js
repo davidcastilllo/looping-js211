@@ -125,5 +125,3 @@ let personlist = arrayOfPersons.filter(function (e) {
     let date = e.birthDate.split(' ')[2]
 if (date < 1990) {console.log(date)}
 });
-
-
